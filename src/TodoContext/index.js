@@ -5,6 +5,7 @@ const TodoContext = React.createContext();
 
 function TodoProvider(props){
 
+    console.log("Render TodoProvider");
     const{
         items:todos, 
         saveItems: saveTodos,

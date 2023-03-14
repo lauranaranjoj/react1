@@ -11,6 +11,7 @@ import { TodosLoading } from "../TodosLoading";
 
 function AppUI()
 {
+    console.log("Render AppUI");
     const {
       error,
       loading,

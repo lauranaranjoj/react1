@@ -4,6 +4,7 @@ import './TodoCounter.css'
 
 function TodoCounter()
 {
+    console.log("Render TodoCounter");
     const { totalTodos, completedTodos } = React.useContext(TodoContext);
 
     return(

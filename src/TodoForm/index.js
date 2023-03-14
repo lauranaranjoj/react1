@@ -4,6 +4,7 @@ import { TodoContext } from "../TodoContext";
 
 function TodoForm()
 {
+    console.log("Render TodoForm");
     const { addTodo, setOpenModal } = React.useContext(TodoContext);
     const [newValue, setNewValue] = React.useState('');
     
